@@ -4,7 +4,7 @@
   "title": "榫川设备有效产出核对册",
   "slug": "oee-shifts",
   "algorithm": "停机区间合并裁剪、OEE三因子与按班次透视",
-  "entities": "Shift / DowntimeEvent / ProductionCount / OeeRun / DeliverySchedule",
+  "entities": "Shift / DowntimeEvent / ProductionCount / OeeRun / RunComparison / DeliverySchedule",
   "scenario": "试制设备班次与重叠停机记录→可用率/性能/质量口径→班组复盘站内交付；不把简单平均当加权总OEE",
   "visual": "机械刻度、深橄榄与黄铜",
   "oracle": "重叠区间去重、跨班裁剪手算；性能超1显示警示不静默截断",
